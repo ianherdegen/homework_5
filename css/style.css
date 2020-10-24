@@ -67,6 +67,7 @@ footer{
 
 #logo{
    /*Your code here.*/
+   display: block;
    animation: logo_wiggle 15s;
 }
 
@@ -76,10 +77,10 @@ footer{
     /*Your code here.*/
     /*Don't forget to vertically and horizontally alight the card*/
     display: flex;
+    flex-wrap: wrap;
     vertical-align: middle;
     align-items: center;
-
-  
+    justify-content: center;
 }
 
 .card {
@@ -137,8 +138,10 @@ footer{
   min-height: 600px;
   /*Your code here again.*/
   display: flex;
+  flex-wrap: wrap;
   vertical-align: middle;
   align-items: center;
+  justify-content: center;
 }
 
 .gallery > img{
@@ -156,6 +159,7 @@ header{
   border-bottom: 3px solid #50C7C7;
   /*Your  code here again.*/
   display: flex;
+  justify-content: center;
   vertical-align: middle;
   align-items: center;
 }
@@ -163,6 +167,7 @@ header{
 .nav_links{
   /*Your code here again.*/
   display: block;
+  direction: ltr;
 }
 
 .nav_item a{
@@ -196,10 +201,12 @@ header{
     display: flex;
     vertical-align: middle;
     align-items: center;
+    flex-direction: row;
   }
 
   .nav_links{
     /*Your code here again.*/  
+    display: block;
   }
 
   .nav_item a{
