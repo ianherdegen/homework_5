@@ -145,6 +145,9 @@ footer{
   border: 10px #50C7C7 solid;
   margin: 10px;
   width: 300px;
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
 }
 
 /* Navbar */
@@ -205,12 +208,25 @@ header{
 }
 
 @media print { 
+  background-image:none
   .card {
     flex-basis: 200px;
   }
   /*Your code here again.*/
   /*You will want four selectors*/  
+  .pricing {
+    align-items: top;
+  }
+  .gallery {
+    display: none;
+  }
+  .id {
+    display: none;
+  }
 }
 
 /*Your code here again.*/ 
 /*Add media query to handle reduced-motion*/
+@media screen and (prefers-reduced-motion) {
+
+}
