@@ -200,12 +200,13 @@ header{
   header{
     /*Your code here again.*/  
     flex-direction: row;
+    justify-content: space-between;
   }
 
   .nav_links{
     /*Your code here again.*/  
     flex-direction: row;
-    text-align: right;
+    align-items: right;
   }
 
   .nav_item a{
