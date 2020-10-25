@@ -162,12 +162,13 @@ header{
   justify-content: center;
   vertical-align: middle;
   align-items: center;
+  flex-direction: column;
 }
 
 .nav_links{
   /*Your code here again.*/
-  display: block;
-  direction: ltr;
+  display: flex;
+  flex-direction: column;
 }
 
 .nav_item a{
@@ -201,12 +202,14 @@ header{
     display: flex;
     vertical-align: middle;
     align-items: center;
-    flex-direction: row;
+    justify-content: center;
+    flex-direction: column;
   }
 
   .nav_links{
     /*Your code here again.*/  
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
 
   .nav_item a{
