@@ -159,7 +159,7 @@ header{
   border-bottom: 3px solid #50C7C7;
   /*Your  code here again.*/
   display: flex;
-  justify-content: center;
+  justify-content: left;
   vertical-align: middle;
   align-items: center;
   flex-direction: column;
@@ -199,17 +199,13 @@ header{
   /* Navbar */
   header{
     /*Your code here again.*/  
-    display: flex;
-    vertical-align: middle;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
   }
 
   .nav_links{
     /*Your code here again.*/  
-    display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    text-align: right;
   }
 
   .nav_item a{
